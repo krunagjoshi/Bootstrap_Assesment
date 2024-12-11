@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+  
+.navbar{
+    height: 70px;
+    width: 100%;
+}
+.section_1{
+  height: auto;
+  width: auto;
+}
+input{
+  border: none;
+  outline: none;
+}
+a:hover{
+letter-spacing: 1px;
+}
+/* button:hover{
+  background-color: #0056b3;
+  color: #f8f9fa;
+  box-shadow: 0px 0px 10px 1px #0056b3 ;
+} */
+
+
+
+
+.div_1{
+  height: 400px;
+  width: auto;
+  /* background-color: black; */
+  display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+.box_1 {
+  height: 0;
+  width: 50px;
+  background-color: orangered;
+  animation-name: up;
+  animation-duration: 2s; /* Corrected duration */
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes up {
+  from {
+    height: 0; /* Start at height 0 */
+  }
+  to {
+    height: 20%; /* Grow to 80% of parent */
+  }
+}
+
+.box_2 {
+  height: 0;
+  width: 50px;
+  background-color: orangered;
+  animation-name: up_2;
+  animation-duration: 2s; /* Corrected duration */
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes up_2 {
+  from {
+    height: 0; /* Start at height 0 */
+  }
+  to {
+    height: 40%; /* Grow to 80% of parent */
+  }
+}
+
+.box_3 {
+  height: 0;
+  width: 50px;
+  background-color: orangered;
+  animation-name: up_3;
+  animation-duration: 2s; /* Corrected duration */
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes up_3 {
+  from {
+    height: 0; /* Start at height 0 */
+  }
+  to {
+    height: 60%; /* Grow to 80% of parent */
+  }
+}
+
+.box_4 {
+  height: 0;
+  width: 50px;
+  background-color: orangered;
+  animation-name: up_4;
+  animation-duration: 2s; /* Corrected duration */
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes up_4 {
+  from {
+    height: 0; /* Start at height 0 */
+  }
+  to {
+    height: 80%; /* Grow to 80% of parent */
+  }
+} 
+
+.box_5 {
+  height: 0;
+  width: 50px;
+  background-color: orangered;
+  animation-name: up_5;
+  animation-duration: 2s; /* Corrected duration */
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes up_5 {
+  from {
+    height: 0; /* Start at height 0 */
+  }
+  to {
+    height: 100%; /* Grow to 80% of parent */
+  }
+}
+
+.section_2{
+  height: auto;
+  width: auto;
+}
+.section_3{
+  height: auto;
+  width: auto;
+}
+.main_continer{
+  height: 350px;
+  width: 100%;
+ 
+}
+.continer{
+  height: 330px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.img_1{
+  height: 250px;
+  width: 300px;
+  background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/230816073813-01-eiffel-tower-file.jpg?c=original); 
+  background-position: center;
+  background-size: cover  ;
+  background-repeat:no-repeat ;
+}
+.continer_2{
+  height: 330px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_2{
+  height: 250px;
+  width: 300px;
+  background-image: url(https://i.natgeofe.com/k/5b396b5e-59e7-43a6-9448-708125549aa1/new-york-statue-of-liberty.jpg); 
+  background-position: center;
+  background-size: cover ;
+  background-repeat:no-repeat ;
+}
+
+.continer_3{
+  height: 330px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_3{
+  height: 250px;
+  width: 300px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzsa39Ct_wlG-0JAPqMIuZOyiJisvdO_Df_Q&s); 
+  background-position: center;
+  background-size: cover ;
+  background-repeat:no-repeat ;
+}
+
+
+img{
+  height: 500px;
+}
+
+.basic{
+  height: 90px;
+  width: auto;
+}
+
+.child_1{
+  height: 400px;
+  width: 300px;
+
+}
+
+.footer_imge{
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://www.w3schools.com/bootstrap/map.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
